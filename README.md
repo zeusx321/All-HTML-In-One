@@ -23,8 +23,3 @@ It was created to review and test all HTML basics in one place.
 - External and inline JavaScript
 
 ---
-
-## 🚀 How to Use
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/username/repo-name.git
