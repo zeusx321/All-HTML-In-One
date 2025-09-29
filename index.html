@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All HTML in one File</title>
+
+    <meta name="description" content="This is a full HTML practice page">
+    <meta name="keywords" content="HTML, practice, review">
+    <meta name="author" content="ziad">
+
+    <link rel="stylesheet" href="css/css.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            font-family: "Open Sans", sans-serif;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <!-- this is comment -->
+
+    <header>this is my head</header>
+
+    <main>
+        <h1>this is all text</h1>
+    <h1 title="this is h1">this is head</h1>
+    <h2 style="color: lightblue;">this is head</h2>
+    <h3 class="h3">this is head</h3>
+    <h4 id="h4">this is head</h4>
+    <h5>this is head</h5>
+    <h6>this is head</h6>
+
+    <br><br>
+
+    <p title="this is lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur molestiae accusantium amet quas, ipsam ab perspiciatis. Mollitia eveniet laborum maxime omnis?</p>
+
+    <pre>    this        is pre</pre>
+
+    <p>this is <span>span</span></p>
+
+    <q>this is quote</q>
+    <br><br>
+
+    <address>this is my address</address>
+    <br><br>
+
+    <code>inner.html = idk;</code>
+
+    <p>Lorem ipsum dolor sit, <i>amet</i> consectetur <em>adipisicing</em> elit. Natus <b>voluptatibus</b> ullam <strong>exercitationem</strong> cupiditate tempore <mark>delectus</mark> vero est, <u>fugiat</u> deleniti.</p>
+
+    <p>Co<sub>2</sub></p>   <p>2<sup>2</sup></p>
+
+    <a href="https://www.google.com" target="_blank">google</a>
+    <br><br>
+
+    <img src="img/game-console.png" alt="game" width="100px">
+
+    </main>
+
+    <hr>
+
+    <div>
+        <h3>this is form</h3>
+        <form action="">
+
+            <label for="name">enter ur name:</label>
+            <input type="text" id="name"  name="name" placeholder="name">
+            <br><br>
+
+            <label for="email">enter ur emaill:</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+
+            <label for="pass">enter ur password:</label>
+            <input type="password" id="pass" name="pass">
+            <br><br>
+
+            <label for="num">enter ur age:</label>
+            <input type="number" id="num" max="30" min="18"  name="number">
+            <br><br>
+
+            <label for="range">enter ur english level:</label>
+            <input type="range" id="range" min="18" max="30"  name="range">
+            <br><br>
+
+            <label for="date">enter ur birthdate:</label>
+            <input type="date" id="date"  name="date">
+            <br><br>
+
+            <label for="file">enter ur file:</label>
+            <input type="file" id="file"  name="file">
+            <br><br>
+
+            <label for="color">enter ur fav color:</label>
+            <input type="color" id="color" name="color">
+            <br><br>
+
+            <label for="choose">choose ur city:</label>
+            <select name="option" id="choose">
+                <option value="alex">alex</option>
+                <option value="cairo">cairo</option>
+                <option value="geza">geza</option>
+            </select>
+            <br><br>
+
+            <label for="browser">choose ur browser:</label>
+            <input list="browsers" name="browser" id="browser">
+            <datalist id="browsers">
+                <option value="Chrome">
+                <option value="Firefox">
+                <option value="Explore">
+            </datalist>
+            <br><br>
+
+            <label for="choose">choose ur city:</label>
+            <br>
+            <input type="radio" id="alex" name="city">
+            <label for="alex">alex</label>
+            <br>
+            <input type="radio" id="cairo" name="city">
+            <label for="cairo">cairo</label>
+            <br>
+            <input type="radio" id="geza" name="city">
+            <label for="geza">geza</label>
+            <br><br>
+
+            <label for="choose">choose ur browser:</label>
+            <br>
+            <input type="checkbox" name="browser" id="chrome">
+            <label for="chrome">chrome</label>
+            <br>
+            <input type="checkbox" name="browser" id="firefox">
+            <label for="firefox">firefox</label>
+            <br>
+            <input type="checkbox" name="browser" id="explore">
+            <label for="explore">explore</label>
+            <br><br>
+
+            <input type="submit">
+            <input type="reset">
+
+            <hr>
+
+
+        </form>
+    </div>
+
+    <section>
+        <h3>this is lists</h3>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">home</a>
+                    <ul>
+                        <li>home</li>
+                        <li>about</li>
+                    </ul>
+                </li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">html</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ol>
+                <li>home</li>
+                <li>page</li>
+                <li>link</li>
+            </ol>
+        </nav>
+        <nav>
+            <ol type="A">
+                <li>home</li>
+                <li>page</li>
+                <li>link</li>
+            </ol>
+        </nav>
+        <nav>
+            <ol start="5">
+                <li>home</li>
+                <li>page</li>
+                <li>link</li>
+            </ol>
+        </nav>
+        <nav>
+            <dl>
+                <dt>this is dt</dt>
+                <dd>this is dd</dd>
+            </dl>
+        </nav>
+
+        <button>click here</button>
+        <br>
+        <hr>
+    </section>
+
+    <section>
+        <table border="2">
+
+            <colgroup>
+                <col span="1" style="background-color: lightblue;">
+            </colgroup>
+
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>price</th>
+                    <th>amount</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th>ziad</th>
+                    <th rowspan="2">2$</th>
+                    <th>3</th>
+                </tr>
+                <tr>
+                    <th>mohamed</th>
+                    <th>2</th>
+                </tr>
+                <tr>
+                    <th>ahmed</th>
+                    <th>3$</th>
+                    <th>1</th>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th colspan="3">total: 3</th>
+                </tr>
+            </tfoot>
+        </table>
+        <hr>
+    </section>
+
+    <section>
+
+        <iframe src="https://www.youtube.com" frameborder="0" width="80px" height="100px"></iframe>
+        <br><br>
+
+        <audio controls loop muted autoplay>
+            <source src="assets/audio.mp3" type="audio/mp3">
+	        <source src="assets/audio1.ogg" type="audio/ogg">
+            Your Browser Does Not Support Audio Tags!
+        </audio>
+
+        <video controls loop muted autoplay poster="image.jpg">
+            <source src="assets/video1.mp4" type="video/mp4">
+	        <source src="assets/video1.ogg" type="video/ogg">
+            Your Browser Does Not Support video Tags!
+        </video>
+    </section>
+
+    <footer>&#8226; this is my footer&copy;</footer>
+
+    <script src="js/app.js">
+        console.log("hello from html")
+    </script>
+
+    <!-- 
+    don't forget:
+        -aside
+        -header
+        -artical
+        - &nbsp; to make space
+    -->
+
+</body>
+</html>
